@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bow', 'down', 'lookup', 'sit']
+
+roboflow:
+  workspace: class-t58ex
+  project: student-behavior
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/class-t58ex/student-behavior/dataset/15

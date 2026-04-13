@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['listening', 'reading', 'sleeping', 'turning', 'using_mobile', 'writing']
+
+roboflow:
+  workspace: project1-nblhj
+  project: student-behaviour-bpzqc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project1-nblhj/student-behaviour-bpzqc/dataset/1
